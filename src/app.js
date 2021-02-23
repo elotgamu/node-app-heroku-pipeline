@@ -3,7 +3,7 @@ const express = require("express");
 const app = express();
 
 //OK health endpoint
-app.get("/health", (req, res) => {
+app.get("/health", (req, res, next) => {
   res.status(200).json({ message: "OK" });
 });
 
