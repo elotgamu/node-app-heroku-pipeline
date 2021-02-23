@@ -1,0 +1,23 @@
+{
+  "name": "app-heroku-pipeline",
+  "version": "1.0.0",
+  "description": "A node JS app ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elotgamu/node-app-heroku-pipeline.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/elotgamu/node-app-heroku-pipeline/issues"
+  },
+  "homepage": "https://github.com/elotgamu/node-app-heroku-pipeline#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
