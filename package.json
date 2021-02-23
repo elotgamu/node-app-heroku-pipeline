@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "A node JS app ",
   "main": "index.js",
+  "engines": {
+    "node": "^14.15.1"
+  },
   "scripts": {
     "test": "jest",
     "test:watch": "jest --watch",
