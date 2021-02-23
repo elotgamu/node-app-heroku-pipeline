@@ -1,0 +1,13 @@
+{
+  "name": "node-app-heroku-pipeline",
+  "description": "A simple express app",
+  "repository": "https://github.com/elotgamu/node-app-heroku-pipeline",
+  "image": "heroku/nodejs",
+  "environments": {
+    "test": {
+      "scripts": {
+        "test": "npm run test"
+      }
+    }
+  }
+}
