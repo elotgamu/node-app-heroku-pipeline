@@ -14,7 +14,7 @@ describe("Sanity checks", () => {
   });
 });
 
-describe("Api message", () => {
+describe("Testing the api message", () => {
   test("/ endpoint return the api message", async (done) => {
     const response = await request.get("/");
     expect(response.statusCode).toBe(200);
